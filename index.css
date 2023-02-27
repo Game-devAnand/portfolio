@@ -1,0 +1,68 @@
+.nav{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: #000;
+}
+
+#alinks{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    align-self: center;
+}
+
+#alinks:hover{
+    color: aqua;
+    text-decoration: none;
+
+}
+
+
+#logo{
+    width: 30;
+    height: 30;
+}
+
+a.nav{
+    text-decoration: none;
+    color: #000;;
+}
+
+.MainContent{
+    width:100%;
+    height: 500px;
+    background-color: black;
+}
+
+#sizedBox{
+    width: 170px;
+
+}
+
+#myInfo{
+    border-radius: 30;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 400px;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.sub{
+    width: 400px;
+    height: 400px;
+    background-color: darkgoldenrod;
+}
+#myData{
+    font-size: 50px;
+}
+
+
+.char:hover{
+    color: white;
+}

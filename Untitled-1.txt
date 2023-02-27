@@ -1,0 +1,8 @@
+
+//prject personal portfolia
+pag1 home + nav +{home about contact};
+  body{ img inf0}
+
+page2 - abut - colleg projects
+
+page3- contact - from + 

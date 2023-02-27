@@ -1,0 +1,67 @@
+#main{
+    width:100%;
+    height: 500px;
+    background-color: black;
+}
+
+#card{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 400px;
+    background-color: #262626;
+    justify-content: space-around;
+    padding: 30px;
+    filter: drop-shadow(3px 1px 14px aqua);
+}
+
+#email{
+    background-color: #262626;
+    color: white;
+}
+
+.txt{
+    color: white;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.sizedbox{
+    width: 10px;
+}
+.col{
+    display: block;
+}
+.box{
+    padding: 30px;
+    width: 500px;
+    height: 300px;
+    background-color: #262626;
+}
+
+.box:hover{
+    margin: 3px;
+    filter: drop-shadow(3px 1px 14px black);
+}
+
+.input{
+    margin-top: 50px;
+    height: 100px;
+    width: 400px;
+}
+
+.button{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #262626;
+}
+
+.map{
+    height: 300;
+    width: 400px;
+}
