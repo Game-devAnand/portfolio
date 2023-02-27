@@ -13,6 +13,13 @@
     justify-content: space-around;
     padding: 30px;
     filter: drop-shadow(3px 1px 14px aqua);
+    display: flex;
+}
+
+.effect{
+    width: 400px;
+    height: 400px;
+    background-color:#262626;
 }
 
 h1{
@@ -26,4 +33,46 @@ p{
 
 #card:hover{
     filter: drop-shadow(3px 1px 14px red);
+}
+
+.tools{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 200px;
+    background-color: #3f3f3f;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.smallCard{
+    height: 100px;
+    width: 250px;
+    background-color: #262626;
+    filter: drop-shadow(10px 11px 4px #0000);
+}
+
+.textInCard{
+    text-align: center;
+}
+
+#react:hover{
+    color: aqua;
+}
+
+#sql:hover{
+    color: yellow;
+}
+
+#node:hover{
+    color: green;
+}
+
+body{
+    padding-bottom: 20px;
 }
